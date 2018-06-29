@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-ios-base64",
+  "version": "3.0.0",
+  "description": "Cordova iOS Base64 Plugin",
+  "cordova": {
+    "id": "cordova-plugin-ios-base64",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarahgoldman/cordova-plugin-ios-base64"
+  },
+  "keywords": [
+    "cordova",
+    "base64",
+    "cordova-ios",
+  ],
+  "author": "Sarah Goldman",
+  "license": "MIT"
+}

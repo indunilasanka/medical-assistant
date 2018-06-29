@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="cordova-plugin-print-pdf"
+	version="4.0.0">
+	<name>PrintPDF</name>
+	<description>Cordova Print PDF Plugin</description>
+	<license>MIT</license>
+
+	<dependency id="cordova-plugin-device" url="https://github.com/apache/cordova-plugin-device.git" />
+	<dependency id="cordova-plugin-ios-base64" url="https://github.com/sarahgoldman/cordova-plugin-ios-base64" />
+
+	<js-module src="www/PrintPDF.js" name="PrintPDF">
+		<clobbers target="window.PrintPDF" />
+	</js-module>
+
+	<!-- ios -->
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="PrintPDF">
+				<param name="ios-package" value="CDVPrintPDF" />
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/CDVPrintPDF.h" />
+		<source-file src="src/ios/CDVPrintPDF.m" />
+	</platform>
+
+	<!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="PrintPDF">
+                <param name="android-package" value="com.sgoldm.plugin.printPDF.PrintPDF"/>
+            </feature>
+        </config-file>
+
+		<config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <!--
+             * Activity is triggered when only the web based Google Cloud Print
+             * interface is available and no other native app.
+            -->
+            <activity android:name="com.sgoldm.plugin.printPDF.CloudPrintDialog"
+                      android:theme="@android:style/Theme.Black.NoTitleBar" />
+        </config-file>
+
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <!--
+             * Permissions required to be able to check if the web interface is
+             * available and to load the page from the web view
+            -->
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.INTERNET" />
+        </config-file>
+
+        <source-file src="src/android/PrintPDF.java" target-dir="src/com/sgoldm/plugin/printPDF" />
+        <source-file src="src/android/CloudPrintDialog.java" target-dir="src/com/sgoldm/plugin/printPDF" />
+    </platform>
+
+</plugin>

@@ -1,0 +1,263 @@
+﻿<body>
+    <ons-navigator title="Navigator" var="viewAgreemntNavigator">
+
+        <ons-page class="ons-page-fixed" ng-controller="viewAgreementCtrl">
+            
+            <div class="navigation-bar">
+                <div class="navigation-bar__left" ng-click="navigateBack()">
+                    <span class="toolbar-button--quiet navigation-bar__line-height">
+                        <i class="ion-ios-home-outline" style="font-size: 22px;"></i>
+                    </span>
+                </div>
+                <div class="navigation-bar__center">
+                    MDIC | DETAILS
+                </div>
+                <div class="navigation-bar__right" ng-click="navigateToCheckDamage()">
+                    <ons-icon class="button button--quiet" icon="ion-settings" size="23px" fixed-width="false"></ons-icon>
+                </div>
+            </div>
+            <form method="get" class="font-small">
+                <!--
+                    <ons-list modifier="inset" style="margin-top: 10px">
+                        <ons-list-item>
+                            <ons-row>
+                                <ons-col width="40%">
+                                    <label>
+                                        Data Number
+                                    </label>
+                                </ons-col>
+                                <ons-col width="3%">
+                                    :
+                                </ons-col>
+
+                                <ons-col>
+                                    <label class="value" ng-bind="info[0].DataId"></label>
+                                </ons-col>
+                            </ons-row>
+                        </ons-list-item>
+                    </ons-list>
+                -->
+                <ons-list modifier="inset" style="margin-top: 10px">
+                    <ons-list-header>BASIC DETAILS</ons-list-header>
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Brand Name</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].Brand | titleCase"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Generic Name</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].Chemical | titleCase"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>EXP Date</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].ExpDate"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Country</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].country"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Schedules</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].Schedules | titleCase"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Dosage Form</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].DosageForm | titleCase"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Pack Size</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].PackSize | titleCase"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Pack Type</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].PackType | titleCase"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Certificate Number</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].CNo | titleCase"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                Price
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].Price | titleCase"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Manufacturer</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].Manu"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Importer</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].Impo"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Contact(Importer)</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].TP"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                    <ons-list-item>
+                        <ons-row>
+                            <ons-col width="40%">
+                                <label>Address(Importer)</label>
+                            </ons-col>
+                            <ons-col width="3%">
+                                :
+                            </ons-col>
+                            <ons-col>
+                                <label class="value" ng-bind="info[0].AddOfImpo | titleCase"></label>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list-item>
+
+                </ons-list>
+
+                    <ons-list modifier="inset" style="margin-top: 10px">
+                        <ons-row class="profile-wrapper">
+                            <ons-col>
+                                <ons-button id="printBtn" modifier="large--cta" style="width:100%; background-color:lightgreen" ng-click="Print()" ng-disabled="loading">
+                                    <ons-icon icon="ion-printer" size="28px" fixed-width="false"></ons-icon>
+                                    Print
+                                </ons-button>
+                            </ons-col>
+                            <ons-col width="5px"></ons-col>
+                            <ons-col>
+                                <ons-button id="emailBtn" modifier="large--cta" style="width:100%; background-color:sandybrown" ng-click="Email()" ng-disabled="loading">
+                                    <ons-icon icon="ion-ios-email-outline" size="28px" fixed-width="false"></ons-icon>
+                                    Email
+                                </ons-button>
+                            </ons-col>
+                        </ons-row>
+                    </ons-list>
+
+                    
+
+            </form>
+
+        </ons-page>
+    </ons-navigator>
+</body>
+

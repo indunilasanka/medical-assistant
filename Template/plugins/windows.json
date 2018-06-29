@@ -1,0 +1,55 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.cordova.plugins.sms": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-disable-bitcode": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-print-pdf": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "mx.ferreyra.callnumber": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-ios-requires-fullscreen": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-ios-base64": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "MDIC-V1.0"
+        }
+    }
+}

@@ -1,0 +1,267 @@
+﻿<body>
+    <ons-navigator animation="slide" var="newCustomerNavigator">
+        <ons-page ng-controller="newCustomerCtrl" class="ons-page-fixed">
+            <div class="navigation-bar">
+
+                <div class="navigation-bar__left" onclick="homeNavigator.popPage({ animation: defaultTransition });">
+                    <span class="toolbar-button--quiet navigation-bar__line-height">
+                        <i class="ion-chevron-left"></i>
+                    </span>
+                </div>
+
+                <div class="navigation-bar__center">
+                    New Customer
+                </div>
+
+                <div class="navigation-bar__right">
+                    <span class="toolbar-button--quiet navigation-bar__line-height" ng-click="formClear()">Clear</span>
+                </div>
+            </div>
+
+            <form name="newCustomerForm" id="newCustForm" novalidate="">
+                <div class="formarea font-small newCustomerRow ">
+                    <ons-row sliding-menu-ignore="true">
+                        <ons-col>
+                            <input type="text" name="FirstName" value="" ng-model="info.FirstName" required ng-class="{ 'has-errors' : newCustomerForm.FirstName.$invalid, 'no-errors' : newCustomerForm.FirstName.$valid}"
+                                   placeholder="First Name" class="text-input text-input--underbar newCustomer" ng-mouseup="saveCustomer('FirstName')">
+                            <div style="display: none;" id="FirstName" class="error-container" ng-show="newCustomerForm.FirstName.$error" ng-messages="newCustomerForm.FirstName.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                        <ons-col width="2%"></ons-col>
+                        <ons-col>
+                            <input type="text" name="LastName" value="" ng-model="info.LastName" required ng-class="{ 'has-errors' : newCustomerForm.LastName.$invalid, 'no-errors' : newCustomerForm.LastName.$valid}"
+                                   placeholder="Last Name" class="text-input text-input--underbar newCustomer" ng-mouseup="saveCustomer('LastName')">
+                            <div style="display: none;" id="LastName" class="error-container" ng-show="newCustomerForm.LastName.$error" ng-messages="newCustomerForm.LastName.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row sliding-menu-ignore="true">
+                        <ons-col>
+                            <input type="tel" name="phoneNumber" value="" ng-model="info.Phone" ng-pattern="/^[0-9]{7,15}$/" required ng-class="{ 'has-errors' : newCustomerForm.phoneNumber.$invalid, 'no-errors' : newCustomerForm.phoneNumber.$valid}"
+                                   style="width:100%; " placeholder="Phone Number" class="text-input text-input--underbar" ng-mouseup="saveCustomer('phoneNumber')">
+                            <div style="display: none;" id="phoneNumber" class="error-container" ng-show="newCustomerForm.phoneNumber.$error" ng-messages="newCustomerForm.phoneNumber.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                        <ons-col width="2%"></ons-col>
+                        <ons-col>
+                            <input type="text" name="emailAd" value="" ng-model="info.Email" ng-pattern="/^[_a-zA-Z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/" required ng-class="{ 'has-errors' : newCustomerForm.emailAd.$invalid, 'no-errors' : newCustomerForm.emailAd.$valid}"
+                                   style="width:100%; " placeholder="Email Address" class="text-input text-input--underbar" ng-mouseup="saveCustomer('emailAd')">
+                            <div style="display: none;" id="emailAd" class="error-container" ng-show="newCustomerForm.emailAd.$error" ng-messages="newCustomerForm.emailAd.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row>
+                        <ons-col>
+                            <input type="text" name="Cardno" value="" ng-model="info.CompanyName" placeholder="Company Name" class="text-input text-input--underbar newCustomer">
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row style="padding-top: 20px;">
+                        <ons-col width="40%">
+                            <label class="labelFix">
+                                Date of Birth
+                            </label>
+                        </ons-col>
+                        <ons-col width="5">
+                            <label class="labelFix">
+                                :
+                            </label>
+                        </ons-col>
+
+                        <ons-col>
+                            <input type="date" name="dateOfBirth" ng-model="info.DateOfBirth" required ng-class="{ 'has-errors' : newCustomerForm.dateOfBirth.$invalid, 'no-errors' : newCustomerForm.dateOfBirth.$valid}"
+                                   style="width:100%" class="text-input text-input--underbar" ng-mouseup="saveCustomer('dateOfBirth')" max="{{today | date:'yyyy-MM-dd'}}">
+                            <div style="display: none;" id="dateOfBirth" class="error-container" ng-show="newCustomerForm.dateOfBirth.$error" ng-messages="newCustomerForm.dateOfBirth.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row style="padding-top: 30px;">
+                        <ons-col width="41%" style="padding-left:9px;">
+                            <label> Customer Type </label>
+                        </ons-col>
+                        <ons-col width="5">
+                            <label> : </label>
+                        </ons-col>
+                        <ons-col>
+                            <select class="form-control" ng-options='item as item.TypeName for item in customerTypes' ng-model="info.CustomerType"
+                                    style="width: 100%; height: 30px; text-indent: 0; text-align-last: center;border-radius: 5px; margin-top: 7px;"></select>
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row sliding-menu-ignore="true">
+                        <input type="text" name="Address" value="" ng-model="info.Address" required ng-class="{ 'has-errors' : newCustomerForm.Address.$invalid, 'no-errors' : newCustomerForm.Address.$valid}"
+                               placeholder="Address" class="text-input text-input--underbar newCustomer" ng-mouseup="saveCustomer('Address')">
+                        <div style="display: none;" id="Address" class="error-container" ng-show="newCustomerForm.Address.$error" ng-messages="newCustomerForm.Address.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                    </ons-row>
+
+                    <ons-row>
+                        <ons-col>
+                            <ons-row>
+                                <ons-col style="display: inline-flex;">
+                                    <select class="form-control" ng-options='item as item.Value for item in countries' ng-model="info.Country" ng-change="loadStates()"
+                                            style="width: 100%; height: 30px; text-indent: 0; text-align-last: center;border-radius: 5px; margin-top: 7px;"></select>
+                                </ons-col>
+                            </ons-row>
+                        </ons-col>
+                        <ons-col width="10%"></ons-col>
+                        <ons-col>
+                            <ons-row>
+                                <ons-col style="display: inline-flex;">
+                                    <select class="form-control" ng-options='item as item.Value for item in states' ng-model="info.State"
+                                            style="width: 100%; height: 30px; text-indent: 0; text-align-last: center;border-radius: 5px; margin-top: 7px;"></select>
+                                </ons-col>
+                            </ons-row>
+                        </ons-col>
+
+                    </ons-row>
+
+                    <ons-row sliding-menu-ignore="true">
+                        <ons-col>
+                            <input type="text" name="City" value="" ng-model="info.City" required ng-class="{ 'has-errors' : newCustomerForm.City.$invalid, 'no-errors' : newCustomerForm.City.$valid}"
+                                   placeholder="City" class="text-input text-input--underbar newCustomer" ng-mouseup="saveCustomer('City')">
+                            <div style="display: none;" id="City" class="error-container" ng-show="newCustomerForm.City.$error" ng-messages="newCustomerForm.City.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                        <ons-col width="2%"></ons-col>
+                        <ons-col>
+                            <input type="text" name="ZipCode" value="" ng-model="info.ZipCode" required ng-class="{ 'has-errors' : newCustomerForm.ZipCode.$invalid, 'no-errors' : newCustomerForm.ZipCode.$valid}"
+                                   placeholder="Zip Code" class="text-input text-input--underbar newCustomer" ng-mouseup="saveCustomer('ZipCode')">
+                            <div style="display: none;" id="ZipCode" class="error-container" ng-show="newCustomerForm.ZipCode.$error" ng-messages="newCustomerForm.ZipCode.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row style="padding-top: 20px;" sliding-menu-ignore="true">
+                        <ons-col width="40%">
+                            <label class="labelFix">
+                                License Number
+                            </label>
+                        </ons-col>
+                        <ons-col width="5">
+                            <label class="labelFix">
+                                :
+                            </label>
+                        </ons-col>
+                        <ons-col>
+                            <input type="text" name="driverLicenceNumber" value="" ng-model="info.LicenseNumber" required ng-class="{ 'has-errors' : newCustomerForm.driverLicenceNumber.$invalid, 'no-errors' : newCustomerForm.driverLicenceNumber.$valid}"
+                                   placeholder="Driver's Licence Number" class="text-input text-input--underbar" ng-mouseup="saveCustomer('driverLicenceNumber')">
+                            <div style="display: none;" id="driverLicenceNumber" class="error-container" ng-show="newCustomerForm.driverLicenceNumber.$error" ng-messages="newCustomerForm.driverLicenceNumber.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row style="padding-top: 20px;">
+                        <ons-col width="40%">
+                            <label class="labelFix">
+                                License Issued Date
+                            </label>
+                        </ons-col>
+                        <ons-col width="5">
+                            <label class="labelFix">
+                                :
+                            </label>
+                        </ons-col>
+
+                        <ons-col>
+                            <input type="date" name="issuedDate" value="" ng-model="info.LicenseIssueDate" required ng-class="{ 'has-errors' : newCustomerForm.issuedDate.$invalid, 'no-errors' : newCustomerForm.issuedDate.$valid}"
+                                   style="width:100%" class="text-input text-input--underbar" ng-mouseup="saveCustomer('issuedDate')">
+                            <div style="display: none;" id="issuedDate" class="error-container" ng-show="newCustomerForm.issuedDate.$error" ng-messages="newCustomerForm.issuedDate.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row style="padding-top: 20px;">
+                        <ons-col width="40%">
+                            <label class="labelFix">
+                                License Expiry Date
+                            </label>
+                        </ons-col>
+                        <ons-col width="5">
+                            <label class="labelFix">
+                                :
+                            </label>
+                        </ons-col>
+
+                        <ons-col>
+                            <input type="date" name="expiryDate" value="" ng-model="info.LicenseExpiryDate" required ng-class="{ 'has-errors' : newCustomerForm.expiryDate.$invalid, 'no-errors' : newCustomerForm.expiryDate.$valid}"
+                                   style="width:100%" class="text-input text-input--underbar" ng-mouseup="saveCustomer('expiryDate')">
+                            <div style="display: none;" id="expiryDate" class="error-container" ng-show="newCustomerForm.expiryDate.$error" ng-messages="newCustomerForm.expiryDate.$error" ng-messages-include="newCustomerCommonErrorList.html"></div>
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row>
+                        <ons-col style="display: inline-flex;">
+                            <select class="form-control" ng-options='item.Value for item in ccTypes' ng-model="info.CreditCardType"
+                                    style="width: 100%; height: 30px; text-indent: 0; text-align-last: center;border-radius: 5px; margin-top: 7px;"></select>
+                        </ons-col>
+                        <ons-col width="10%"></ons-col>
+                        <ons-col>
+                            <input type="tel" name="Cardno" value="" ng-model="info.CreditCardNo" placeholder="C.Card No" class="text-input text-input--underbar newCustomer">
+                        </ons-col>
+                    </ons-row>
+
+                    <ons-row style="padding-top: 20px;">
+                        <ons-col width="40%">
+                            <label class="labelFix">
+                                Credit Card ExpiryDate
+                            </label>
+                        </ons-col>
+                        <ons-col width="5">
+                            <label class="labelFix">
+                                :
+                            </label>
+                        </ons-col>
+                        <ons-col>
+                            <input type="date" name="CreditCardExpiryDate" value="" ng-model="info.CreditCardExpiryDate" style="width:100%" class="text-input text-input--underbar">
+                        </ons-col>
+                    </ons-row>
+
+                    <br />
+
+                    <!-- camera option -->
+                    <ons-row ng-show="true">
+                        <img src="" id="IDImage"
+                             style="width:100%; height: 100%; margin-bottom: 10px;" />
+                        <br>
+                        <ons-row class="profile-wrapper">
+                            <ons-col>
+                                <ons-button modifier="large--cta" style="background-color:lightgreen" ng-click="uploadImg()">
+                                    <ons-icon icon="ion-image" size="28px" fixed-width="false"></ons-icon>
+                                    Upload
+                                </ons-button>
+                            </ons-col>
+                            <ons-col width="5px"></ons-col>
+                            <ons-col>
+                                <ons-button modifier="large--cta" style="width:100%; background-color: sandybrown;" ng-click="takePic()">
+                                    <ons-icon icon="ion-ios-camera" size="28px" fixed-width="false"></ons-icon>
+                                    Take
+                                </ons-button>
+                            </ons-col>
+                        </ons-row>
+
+                    </ons-row>
+
+                    <ons-template id="newCustomerCommonErrorList.html">
+                        <div class="error" ng-message="required">
+                            <ons-row>
+                                <ons-col width="15px">
+                                    <i class="ion-information-circled"></i>
+                                </ons-col>
+                                <ons-col>Required!</ons-col>
+                            </ons-row>
+                        </div>
+                        <div class="error" ng-message="pattern">
+                            <ons-row>
+                                <ons-col width="15px"><i class="ion-information-circled"></i></ons-col>
+                                <ons-col>Invalid!</ons-col>
+                            </ons-row>
+                        </div>
+                    </ons-template>
+                    <br />
+                </div>
+                <ons-list modifier="inset" style="margin-top: 10px;">
+                    <ons-button modifier="large--cta" ng-click="saveCustomer('buttonPress'); validateForm(newCustomerForm)">
+                        {{buttonValue}}
+                    </ons-button>
+                </ons-list>
+
+            </form>
+
+        </ons-page>
+
+    </ons-navigator>
+</body>

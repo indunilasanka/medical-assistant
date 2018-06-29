@@ -1,0 +1,12 @@
+{
+  "android": {
+    "release": {
+       "alias": "asanka",
+      "keystore": "G:\\mediapp.keystore",
+      "keystoreType": "JKS",
+      "password": "aztec@123",
+      "storePassword": "aztec@123"
+    }   
+  }
+}
+

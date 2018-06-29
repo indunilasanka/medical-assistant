@@ -1,0 +1,1 @@
+C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\CordovaApp.Phone.jsproj;arm

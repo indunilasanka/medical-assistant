@@ -1,0 +1,917 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-UGJPAN5</Machine>
+    <WindowsUser>DIMUTH</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>com.company.project</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>EDBD0344B62353FCC566FD8953E598FC09542A1065E37C472B3CE11B98E5DE3E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.company.project_1.0.0.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.company.project_h35559jr9hy9m!com.company.project</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.company.project</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\build\windows\debug\anycpu\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-08T14:53:21.127</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-08T14:51:23.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-08T14:51:23.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-08T14:51:23.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-08T14:51:23.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2016-11-08T14:51:23.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-08T14:51:23.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2016-11-08T14:51:23.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-08T14:51:23.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-08T14:51:23.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\images\1_Home.png">
+      <PackagePath>www\images\1_Home.png</PackagePath>
+      <Modified>2016-11-08T14:53:12.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\images\2_Home.png">
+      <PackagePath>www\images\2_Home.png</PackagePath>
+      <Modified>2016-11-08T14:53:12.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\images\3_Home.png">
+      <PackagePath>www\images\3_Home.png</PackagePath>
+      <Modified>2016-11-08T14:53:12.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\images\logo.png">
+      <PackagePath>www\images\logo.png</PackagePath>
+      <Modified>2016-11-08T14:53:12.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\images\profilePicture.png">
+      <PackagePath>www\images\profilePicture.png</PackagePath>
+      <Modified>2016-11-08T14:53:12.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-11-08T14:53:16.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-11-08T14:53:16.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-11-08T14:53:13.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-11-08T14:53:16.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular-animate.js">
+      <PackagePath>www\lib\angular\angular-animate.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular-messages.min.js">
+      <PackagePath>www\lib\angular\angular-messages.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular-notify.js">
+      <PackagePath>www\lib\angular\angular-notify.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular-route.js">
+      <PackagePath>www\lib\angular\angular-route.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular-translate.js">
+      <PackagePath>www\lib\angular\angular-translate.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular-ui-router.js">
+      <PackagePath>www\lib\angular\angular-ui-router.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular.js">
+      <PackagePath>www\lib\angular\angular.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular.min.js">
+      <PackagePath>www\lib\angular\angular.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\bootstrap\bootstrap.js">
+      <PackagePath>www\lib\bootstrap\bootstrap.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\jquery\jquery-2.1.4.min.js">
+      <PackagePath>www\lib\jquery\jquery-2.1.4.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\jquery\jquery.signaturepad.min.js">
+      <PackagePath>www\lib\jquery\jquery.signaturepad.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:17.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\js\angular-onsenui.js">
+      <PackagePath>www\lib\onsenui\js\angular-onsenui.js</PackagePath>
+      <Modified>2016-11-08T14:53:18.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\js\angular-onsenui.min.js">
+      <PackagePath>www\lib\onsenui\js\angular-onsenui.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:18.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\js\onsenui.js">
+      <PackagePath>www\lib\onsenui\js\onsenui.js</PackagePath>
+      <Modified>2016-11-08T14:53:18.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\js\onsenui.min.js">
+      <PackagePath>www\lib\onsenui\js\onsenui.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\js\onsenui.js">
+      <PackagePath>www\lib\onsen\js\onsenui.js</PackagePath>
+      <Modified>2016-11-08T14:53:18.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\js\onsenui.min.js">
+      <PackagePath>www\lib\onsen\js\onsenui.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:18.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\other\chart.js">
+      <PackagePath>www\lib\other\chart.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\other\moment.js">
+      <PackagePath>www\lib\other\moment.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\scripts\bezier.js">
+      <PackagePath>www\lib\scripts\bezier.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\scripts\cpgadget.js">
+      <PackagePath>www\lib\scripts\cpgadget.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\scripts\date.js">
+      <PackagePath>www\lib\scripts\date.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\scripts\jquery-2.1.4.min.js">
+      <PackagePath>www\lib\scripts\jquery-2.1.4.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\scripts\jquery.signaturepad.min.js">
+      <PackagePath>www\lib\scripts\jquery.signaturepad.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\scripts\json2.min.js">
+      <PackagePath>www\lib\scripts\json2.min.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\scripts\moment.js">
+      <PackagePath>www\lib\scripts\moment.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\scripts\nsProgress.js">
+      <PackagePath>www\lib\scripts\nsProgress.js</PackagePath>
+      <Modified>2016-11-08T14:53:13.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\scripts\Tesseract.js">
+      <PackagePath>www\lib\scripts\Tesseract.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\com.cordova.plugins.sms\src\windows\SmsProxy.js">
+      <PackagePath>www\plugins\com.cordova.plugins.sms\src\windows\SmsProxy.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\com.cordova.plugins.sms\www\sms.js">
+      <PackagePath>www\plugins\com.cordova.plugins.sms\www\sms.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-app-version\www\AppVersionPlugin.js">
+      <PackagePath>www\plugins\cordova-plugin-app-version\www\AppVersionPlugin.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-camera\src\windows\CameraProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\src\windows\CameraProxy.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-camera\www\Camera.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\Camera.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.560</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-camera\www\CameraConstants.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraConstants.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-camera\www\CameraPopoverHandle.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraPopoverHandle.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-camera\www\CameraPopoverOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraPopoverOptions.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+      <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\src\windows\FileProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-file\src\windows\FileProxy.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\browser\isChrome.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\browser\isChrome.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryEntry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryEntry.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\DirectoryReader.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\DirectoryReader.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.631</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\Entry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Entry.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\File.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\File.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\FileEntry.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileEntry.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\FileError.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileError.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\FileReader.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileReader.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\FileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileSystem.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystemPaths.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\fileSystemPaths.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\fileSystems.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\fileSystems.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadOptions.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\FileUploadResult.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileUploadResult.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\FileWriter.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\FileWriter.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\Flags.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Flags.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\LocalFileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\LocalFileSystem.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\Metadata.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\Metadata.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\ProgressEvent.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\ProgressEvent.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\requestFileSystem.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\requestFileSystem.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js">
+      <PackagePath>www\plugins\cordova-plugin-file\www\resolveLocalFileSystemURI.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\src\windows\InAppBrowserProxy.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js">
+      <PackagePath>www\plugins\cordova-plugin-inappbrowser\www\inappbrowser.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-network-information\src\windows\NetworkInfoProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-network-information\src\windows\NetworkInfoProxy.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-network-information\www\Connection.js">
+      <PackagePath>www\plugins\cordova-plugin-network-information\www\Connection.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.790</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-network-information\www\network.js">
+      <PackagePath>www\plugins\cordova-plugin-network-information\www\network.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\cordova-plugin-print-pdf\www\PrintPDF.js">
+      <PackagePath>www\plugins\cordova-plugin-print-pdf\www\PrintPDF.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\plugins\mx.ferreyra.callnumber\www\CallNumber.js">
+      <PackagePath>www\plugins\mx.ferreyra.callnumber\www\CallNumber.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\common.js">
+      <PackagePath>www\scripts\common.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\home.js">
+      <PackagePath>www\scripts\home.js</PackagePath>
+      <Modified>2016-11-08T14:53:13.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\login.js">
+      <PackagePath>www\scripts\login.js</PackagePath>
+      <Modified>2016-11-08T14:53:13.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\menu.js">
+      <PackagePath>www\scripts\menu.js</PackagePath>
+      <Modified>2016-11-08T14:53:13.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\settings.js">
+      <PackagePath>www\scripts\settings.js</PackagePath>
+      <Modified>2016-11-08T14:53:13.477</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\signUp.js">
+      <PackagePath>www\scripts\signUp.js</PackagePath>
+      <Modified>2016-11-08T14:53:13.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\viewAgreement.js">
+      <PackagePath>www\scripts\viewAgreement.js</PackagePath>
+      <Modified>2016-11-08T14:53:13.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2016-11-08T14:53:19.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-11-08T14:53:14.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\angular-notify.css">
+      <PackagePath>www\css\angular-notify.css</PackagePath>
+      <Modified>2016-11-08T14:53:16.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\App\checkOut.css">
+      <PackagePath>www\css\App\checkOut.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\App\damage.css">
+      <PackagePath>www\css\App\damage.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\App\help.css">
+      <PackagePath>www\css\App\help.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\App\home.css">
+      <PackagePath>www\css\App\home.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\App\images.css">
+      <PackagePath>www\css\App\images.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\App\index.css">
+      <PackagePath>www\css\App\index.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\checkOut.css">
+      <PackagePath>www\css\checkOut.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\error.css">
+      <PackagePath>www\css\error.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\form.css">
+      <PackagePath>www\css\form.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\home.css">
+      <PackagePath>www\css\home.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\inappbrowser.css">
+      <PackagePath>www\css\inappbrowser.css</PackagePath>
+      <Modified>2016-11-08T14:53:13.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\nsProgress.css">
+      <PackagePath>www\css\nsProgress.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\css\slide_menu.css">
+      <PackagePath>www\css\slide_menu.css</PackagePath>
+      <Modified>2016-11-08T14:53:11.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular-csp.css">
+      <PackagePath>www\lib\angular\angular-csp.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\bootstrap\bootstrap-theme.css">
+      <PackagePath>www\lib\bootstrap\bootstrap-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\bootstrap\bootstrap.css">
+      <PackagePath>www\lib\bootstrap\bootstrap.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\font_awesome\css\font-awesome.css">
+      <PackagePath>www\lib\onsenui\css\font_awesome\css\font-awesome.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\font_awesome\css\font-awesome.min.css">
+      <PackagePath>www\lib\onsenui\css\font_awesome\css\font-awesome.min.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\ionicons\css\ionicons.css">
+      <PackagePath>www\lib\onsenui\css\ionicons\css\ionicons.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\ionicons\css\ionicons.min.css">
+      <PackagePath>www\lib\onsenui\css\ionicons\css\ionicons.min.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\material-design-iconic-font\css\material-design-iconic-font.css">
+      <PackagePath>www\lib\onsenui\css\material-design-iconic-font\css\material-design-iconic-font.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\material-design-iconic-font\css\material-design-iconic-font.min.css">
+      <PackagePath>www\lib\onsenui\css\material-design-iconic-font\css\material-design-iconic-font.min.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\onsen-css-components-blue-basic-theme.css">
+      <PackagePath>www\lib\onsenui\css\onsen-css-components-blue-basic-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\onsen-css-components-blue-theme.css">
+      <PackagePath>www\lib\onsenui\css\onsen-css-components-blue-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\onsen-css-components-dark-theme.css">
+      <PackagePath>www\lib\onsenui\css\onsen-css-components-dark-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\onsen-css-components-default.css">
+      <PackagePath>www\lib\onsenui\css\onsen-css-components-default.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\onsen-css-components-purple-theme.css">
+      <PackagePath>www\lib\onsenui\css\onsen-css-components-purple-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\onsen-css-components-sunshine-theme.css">
+      <PackagePath>www\lib\onsenui\css\onsen-css-components-sunshine-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\onsen-css-components.css">
+      <PackagePath>www\lib\onsenui\css\onsen-css-components.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\onsenui.css">
+      <PackagePath>www\lib\onsenui\css\onsenui.css</PackagePath>
+      <Modified>2016-11-08T14:53:18.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\font_awesome\css\font-awesome.css">
+      <PackagePath>www\lib\onsen\css\font_awesome\css\font-awesome.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\font_awesome\css\font-awesome.min.css">
+      <PackagePath>www\lib\onsen\css\font_awesome\css\font-awesome.min.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\ionicons\css\ionicons.css">
+      <PackagePath>www\lib\onsen\css\ionicons\css\ionicons.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\ionicons\css\ionicons.min.css">
+      <PackagePath>www\lib\onsen\css\ionicons\css\ionicons.min.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\onsen-css-components-blue-basic-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-blue-basic-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\onsen-css-components-blue-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-blue-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.802</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\onsen-css-components-dark-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-dark-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\onsen-css-components-default.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-default.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\onsen-css-components-purple-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-purple-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\onsen-css-components-sunshine-theme.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components-sunshine-theme.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\onsen-css-components.css">
+      <PackagePath>www\lib\onsen\css\onsen-css-components.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\onsenui.css">
+      <PackagePath>www\lib\onsen\css\onsenui.css</PackagePath>
+      <Modified>2016-11-08T14:53:17.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\favicon.ico">
+      <PackagePath>www\favicon.ico</PackagePath>
+      <Modified>2016-11-08T14:53:11.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\help.html">
+      <PackagePath>www\help.html</PackagePath>
+      <Modified>2016-11-08T14:53:11.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\home.html">
+      <PackagePath>www\home.html</PackagePath>
+      <Modified>2016-11-08T14:53:11.958</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-11-08T14:53:12.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\login.html">
+      <PackagePath>www\login.html</PackagePath>
+      <Modified>2016-11-08T14:53:13.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\menu.html">
+      <PackagePath>www\menu.html</PackagePath>
+      <Modified>2016-11-08T14:53:13.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\settings.html">
+      <PackagePath>www\settings.html</PackagePath>
+      <Modified>2016-11-08T14:53:13.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\signup.html">
+      <PackagePath>www\signup.html</PackagePath>
+      <Modified>2016-11-08T14:53:13.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\viewAgreement.html">
+      <PackagePath>www\viewAgreement.html</PackagePath>
+      <Modified>2016-11-08T14:53:13.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\images\Thumbs.db">
+      <PackagePath>www\images\Thumbs.db</PackagePath>
+      <Modified>2016-11-08T14:53:12.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular.min.js.gzip">
+      <PackagePath>www\lib\angular\angular.min.js.gzip</PackagePath>
+      <Modified>2016-11-08T14:53:12.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\angular\angular.min.js.map">
+      <PackagePath>www\lib\angular\angular.min.js.map</PackagePath>
+      <Modified>2016-11-08T14:53:12.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\.bower.json">
+      <PackagePath>www\lib\onsenui\.bower.json</PackagePath>
+      <Modified>2016-11-08T14:53:12.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\bower.json">
+      <PackagePath>www\lib\onsenui\bower.json</PackagePath>
+      <Modified>2016-11-08T14:53:18.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\package.json">
+      <PackagePath>www\lib\onsenui\package.json</PackagePath>
+      <Modified>2016-11-08T14:53:19.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\locale\english.json">
+      <PackagePath>www\locale\english.json</PackagePath>
+      <Modified>2016-11-08T14:53:19.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\locale\french.json">
+      <PackagePath>www\locale\french.json</PackagePath>
+      <Modified>2016-11-08T14:53:19.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\locale\russian.json">
+      <PackagePath>www\locale\russian.json</PackagePath>
+      <Modified>2016-11-08T14:53:19.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\CHANGELOG.md">
+      <PackagePath>www\lib\onsenui\CHANGELOG.md</PackagePath>
+      <Modified>2016-11-08T14:53:12.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\README.md">
+      <PackagePath>www\lib\onsenui\README.md</PackagePath>
+      <Modified>2016-11-08T14:53:13.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.eot</PackagePath>
+      <Modified>2016-11-08T14:53:12.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\ionicons\fonts\ionicons.eot">
+      <PackagePath>www\lib\onsenui\css\ionicons\fonts\ionicons.eot</PackagePath>
+      <Modified>2016-11-08T14:53:12.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.eot">
+      <PackagePath>www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.eot</PackagePath>
+      <Modified>2016-11-08T14:53:12.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.eot</PackagePath>
+      <Modified>2016-11-08T14:53:12.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.eot">
+      <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.eot</PackagePath>
+      <Modified>2016-11-08T14:53:12.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.svg</PackagePath>
+      <Modified>2016-11-08T14:53:12.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\ionicons\fonts\ionicons.svg">
+      <PackagePath>www\lib\onsenui\css\ionicons\fonts\ionicons.svg</PackagePath>
+      <Modified>2016-11-08T14:53:12.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.svg">
+      <PackagePath>www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.svg</PackagePath>
+      <Modified>2016-11-08T14:53:12.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.svg</PackagePath>
+      <Modified>2016-11-08T14:53:12.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.svg">
+      <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.svg</PackagePath>
+      <Modified>2016-11-08T14:53:12.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.ttf</PackagePath>
+      <Modified>2016-11-08T14:53:12.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\ionicons\fonts\ionicons.ttf">
+      <PackagePath>www\lib\onsenui\css\ionicons\fonts\ionicons.ttf</PackagePath>
+      <Modified>2016-11-08T14:53:12.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.ttf">
+      <PackagePath>www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.ttf</PackagePath>
+      <Modified>2016-11-08T14:53:12.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.ttf</PackagePath>
+      <Modified>2016-11-08T14:53:12.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.ttf">
+      <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.ttf</PackagePath>
+      <Modified>2016-11-08T14:53:12.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.woff</PackagePath>
+      <Modified>2016-11-08T14:53:12.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\ionicons\fonts\ionicons.woff">
+      <PackagePath>www\lib\onsenui\css\ionicons\fonts\ionicons.woff</PackagePath>
+      <Modified>2016-11-08T14:53:12.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.woff">
+      <PackagePath>www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.woff</PackagePath>
+      <Modified>2016-11-08T14:53:12.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\fontawesome-webfont.woff</PackagePath>
+      <Modified>2016-11-08T14:53:12.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\ionicons\fonts\ionicons.woff">
+      <PackagePath>www\lib\onsen\css\ionicons\fonts\ionicons.woff</PackagePath>
+      <Modified>2016-11-08T14:53:12.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.woff2">
+      <PackagePath>www\lib\onsenui\css\font_awesome\fonts\fontawesome-webfont.woff2</PackagePath>
+      <Modified>2016-11-08T14:53:12.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.woff2">
+      <PackagePath>www\lib\onsenui\css\material-design-iconic-font\fonts\Material-Design-Iconic-Font.woff2</PackagePath>
+      <Modified>2016-11-08T14:53:12.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\css\font_awesome\fonts\FontAwesome.otf">
+      <PackagePath>www\lib\onsenui\css\font_awesome\fonts\FontAwesome.otf</PackagePath>
+      <Modified>2016-11-08T14:53:12.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsen\css\font_awesome\fonts\FontAwesome.otf">
+      <PackagePath>www\lib\onsen\css\font_awesome\fonts\FontAwesome.otf</PackagePath>
+      <Modified>2016-11-08T14:53:12.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\LICENSE">
+      <PackagePath>www\lib\onsenui\LICENSE</PackagePath>
+      <Modified>2016-11-08T14:53:13.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\blue-basic-theme.styl">
+      <PackagePath>www\lib\onsenui\stylus\blue-basic-theme.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\blue-theme.styl">
+      <PackagePath>www\lib\onsenui\stylus\blue-theme.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\alert-dialog.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\alert-dialog.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\button-bar.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\button-bar.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\button.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\button.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\checkbox.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\checkbox.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\dialog.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\dialog.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\fab.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\fab.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\global.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\global.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\index.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\index.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.114</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\list.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\list.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\material-shadow.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\material-shadow.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\modal.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\modal.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\navigation-bar.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\navigation-bar.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\notification.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\notification.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.142</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\page.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\page.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\popover.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\popover.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\progress-bar.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\progress-bar.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\progress-circular.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\progress-circular.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\radio-button.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\radio-button.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\range.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\range.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\search-input.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\search-input.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\switch.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\switch.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\tab-bar.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\tab-bar.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\text-input.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\text-input.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\textarea.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\textarea.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.180</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\toolbar-button.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\toolbar-button.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\components\util.styl">
+      <PackagePath>www\lib\onsenui\stylus\components\util.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\dark-theme.styl">
+      <PackagePath>www\lib\onsenui\stylus\dark-theme.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\purple-theme.styl">
+      <PackagePath>www\lib\onsenui\stylus\purple-theme.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\www\lib\onsenui\stylus\sunshine-theme.styl">
+      <PackagePath>www\lib\onsenui\stylus\sunshine-theme.styl</PackagePath>
+      <Modified>2016-11-08T14:53:13.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-11-08T14:53:11.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\build\windows\debug\anycpu\win8.1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-11-08T14:53:20.694</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

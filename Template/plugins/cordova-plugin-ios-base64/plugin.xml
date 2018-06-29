@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="cordova-plugin-ios-base64"
+	version="1.0.0">
+	<name>iOSBase64</name>
+	<description>Cordova iOS Base64 Plugin</description>
+	<license>MIT</license>
+
+	<!-- ios -->
+	<platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="iOSBase64">
+				<param name="ios-package" value="iOSBase64" />
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/NSData+Base64.h" />
+		<source-file src="src/ios/NSData+Base64.m" />
+	</platform>
+
+
+</plugin>

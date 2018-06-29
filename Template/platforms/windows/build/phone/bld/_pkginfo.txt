@@ -1,0 +1,1 @@
+C:\Users\DIMUTH\Desktop\CordovaTemplate\Template\platforms\windows\AppPackages\CordovaApp.Phone_1.0.0.0_arm_debug_Test\CordovaApp.Phone_1.0.0.0_arm_debug.appx
